@@ -8,25 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0] - 2025-07-19
 
 ### Added
-- 🎯 Comprehensive project structure with proper documentation
-- 📦 Installation and uninstallation scripts
-- 🔧 Service management utility (`wallpaper-service.sh`)
-- 📝 Detailed README with troubleshooting guide
-- 🚀 Multiple fallback methods for workspace detection
-- 🌙 Dark mode wallpaper support
-- 📊 Performance optimizations
+-  Comprehensive project structure with proper documentation
+-  Installation and uninstallation scripts
+-  Service management utility (`wallpaper-service.sh`)
+-  Detailed README with troubleshooting guide
+-  Multiple fallback methods for workspace detection
+-  Dark mode wallpaper support
+-  Performance optimizations
 
 ### Changed
-- ⚡ Improved monitoring frequency (0.5s instead of 1s)
-- 🎨 Eliminated blue screen flash during wallpaper transitions
-- 📝 Cleaner logging system with service mode
-- 🔧 Better error handling and recovery
+-  Improved monitoring frequency (0.5s instead of 1s)
+-  Eliminated blue screen flash during wallpaper transitions
+-  Cleaner logging system with service mode
+-  Better error handling and recovery
 
 ### Fixed
-- 🐛 Blue screen flash during wallpaper changes
-- 🔍 Workspace detection reliability issues
-- 🔄 Service restart and recovery mechanisms
-- 📱 Wayland compatibility improvements
+-  Blue screen flash during wallpaper changes
+-  Workspace detection reliability issues
+-  Service restart and recovery mechanisms
+-  Wayland compatibility improvements
 
 ### Technical Details
 - **CPU Usage**: Reduced to <0.1%
@@ -37,12 +37,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-07-19
 
 ### Added
-- 🎉 Initial release
-- 🖼️ Basic wallpaper changing functionality
-- 🔄 Workspace monitoring service
-- 🛠️ Systemd service integration
-- 🐧 GNOME/Wayland support
-- 📝 Basic logging system
+-  Initial release
+-  Basic wallpaper changing functionality
+-  Workspace monitoring service
+-  Systemd service integration
+-  GNOME/Wayland support
+-  Basic logging system
 
 ### Features
 - Automatic wallpaper switching based on workspace
@@ -53,11 +53,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 ## Legend
-- 🎉 Major feature
-- ⚡ Performance improvement
-- 🐛 Bug fix
-- 🔧 Configuration change
-- 📝 Documentation
-- 🔒 Security fix
-- 🗑️ Deprecation
-- ❌ Breaking change
+-  Major feature
+-  Performance improvement
+-  Bug fix
+-  Configuration change
+-  Documentation
+-  Security fix
+-  Deprecation
+-  Breaking change
