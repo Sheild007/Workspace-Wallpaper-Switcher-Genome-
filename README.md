@@ -1,18 +1,18 @@
-# 🖼️ Wallpaper Workspace Manager
+#  Wallpaper Workspace Manager
 
 A dynamic wallpaper management system for Linux that automatically changes your desktop wallpaper based on the current workspace. Perfect for GNOME/Wayland environments with multiple workspaces.
 
-## ✨ Features
+##  Features
 
-- **🔄 Automatic wallpaper switching** when changing workspaces
-- **🖥️ Multi-desktop environment support** (GNOME, KDE, etc.)
-- **🌙 Dark/Light mode compatibility** (handles both modes)
-- **⚡ Fast and lightweight** systemd service
-- **🔧 Multiple fallback methods** for maximum compatibility
-- **📝 Comprehensive logging** for troubleshooting
-- **🚀 Easy installation and management**
+- **Automatic wallpaper switching** when changing workspaces
+- **Multi-desktop environment support** (GNOME, KDE, etc.)
+- **Dark/Light mode compatibility** (handles both modes)
+- **Fast and lightweight** systemd service
+- **Multiple fallback methods** for maximum compatibility
+- **Comprehensive logging** for troubleshooting
+- **Easy installation and management**
 
-## 📋 Requirements
+## Requirements
 
 - Linux system with:
   - `systemd` (for service management)
@@ -20,12 +20,12 @@ A dynamic wallpaper management system for Linux that automatically changes your 
   - `wmctrl` OR D-Bus (workspace detection)
 
 ### Supported Desktop Environments
-- ✅ GNOME (Wayland/X11)
-- ✅ KDE Plasma
-- ✅ XFCE (with wmctrl)
-- ✅ Other X11 environments
+- [x] GNOME (Wayland/X11)
+- [x] KDE Plasma
+- [x] XFCE (with wmctrl)
+- [x] Other X11 environments
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 ```bash
@@ -57,7 +57,7 @@ mkdir -p ~/Pictures/wallpapers
 ./wallpaper-service.sh enable
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wallpaper-workspace-manager/
@@ -70,7 +70,7 @@ wallpaper-workspace-manager/
 └── uninstall.sh                      # Uninstallation script
 ```
 
-## 🔧 Scripts Overview
+## Scripts Overview
 
 ### `wallpaper-changer.sh`
 The core script that:
@@ -93,7 +93,7 @@ Management utility for:
 - Viewing logs and status
 - Easy troubleshooting
 
-## 🎯 Usage
+##  Usage
 
 ### Manual Wallpaper Change
 ```bash
@@ -119,7 +119,7 @@ Management utility for:
 ./wallpaper-service.sh logs
 ```
 
-## 📝 Configuration
+##  Configuration
 
 ### Wallpaper Naming Convention
 - Place wallpapers in `~/Pictures/wallpapers/`
@@ -192,14 +192,14 @@ wmctrl -d | grep '*'
 - **Graceful error handling** and recovery
 - **Comprehensive logging** for debugging
 
-## 📊 Performance
+## Performance
 
 - **CPU Usage**: <0.1% (minimal background monitoring)
 - **Memory Usage**: ~2MB RAM
 - **Response Time**: <200ms wallpaper change
 - **Startup Time**: <1 second service initialization
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature-name`
@@ -207,23 +207,23 @@ wmctrl -d | grep '*'
 4. Push to branch: `git push origin feature-name`
 5. Submit pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - GNOME developers for gsettings API
 - wmctrl developers for workspace detection
 - Community contributors and testers
 
-## 📞 Support
+##  Support
 
 - **Issues**: Open a GitHub issue
 - **Discussions**: Use GitHub discussions
-- **Email**: [Add your email if desired]
+- **Email**: usman.muneer720@gmail.com
 
-## 🔖 Version History
+##  Version History
 
 ### v2.0.0 (Current)
 - ✅ Eliminated blue screen flash during transitions
@@ -237,4 +237,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - ✅ GNOME/Wayland support
 
 ---
-**Made with ❤️ for the Linux Desktop Community**
